@@ -28,12 +28,11 @@ int main() {
     printf("The area of the rectangle is: %.2f\n", area);
     return 0;
 }
-
-## OUTPUT
-Enter length of the rectangle: 5
-Enter width of the rectangle: 3
-The area of the rectangle is: 15.00
 ```
+## OUTPUT
+
+![Screenshot 2025-04-27 154006](https://github.com/user-attachments/assets/94fff7ad-8d53-4a68-a405-fbe518b42bdf)
+
 		       	
 
 
@@ -58,27 +57,31 @@ To write a C Program to print 'WELCOME' using malloc() and free().
 ## PROGRAM
 ```
 #include <stdio.h>
-#include <stdlib.h> 
+#include <stdlib.h>
+#include <string.h>
+
 int main() {
-    char *str;
-    str = (char *)malloc(8 * sizeof(char)); 
-    if (str == NULL) {  
-        printf("Memory allocation failed!\n");
-        return 1;
+       char *str;
+       str = (char *)malloc(8 * sizeof(char)); 
+if (str == NULL) {
+        printf("Memory allocation failed.\n");
+        return 1; 
     }
-    str = "WELCOME";
+    strcpy(str, "WELCOME");
     printf("%s\n", str);
     free(str);
     return 0;
 }
-## OUTPUT
-WELCOME
 ```
+## OUTPUT
+![Screenshot 2025-04-27 154223](https://github.com/user-attachments/assets/1429b638-db61-4f88-affb-4ee3b5cb7658)
+
+
 
 ## RESULT
 Thus the program to print 'WELCOME' using malloc() and free() has been executed successfully
  
-.
+
 
 
 
@@ -118,19 +121,11 @@ int main() {
     printf("Marks: %.2f\n", s.marks);
     return 0;
 }
+```
 
 ## OUTPUT
 
-Enter student's name: John Doe
-Enter student's roll number: 123
-Enter student's marks: 85.5
-
-Student Information:
-Name: John Doe
-Roll Number: 123
-Marks: 85.50
-```
-
+![Screenshot 2025-04-27 155459](https://github.com/user-attachments/assets/66938081-c3f0-416e-939c-b47c177db8bf)
 
 ## RESULT
 
@@ -198,48 +193,14 @@ int main()
 
     return 0;
 }
- ## OUTPUT
-Enter details for Employee 1
-Enter name: John Doe
-Enter ID: 101
-Enter basic salary: 25000
-
-Enter details for Employee 2
-Enter name: Jane Smith
-Enter ID: 102
-Enter basic salary: 30000
-
-Enter details for Employee 3
-Enter name: Alice Brown
-Enter ID: 103
-Enter basic salary: 22000
-
-Employee Details and Gross Salary:
-
-Employee 1
-Name: John Doe
-ID: 101
-Basic Salary: 25000.00
-HRA: 5000.00
-DA: 2500.00
-Gross Salary: 32500.00
-
-Employee 2
-Name: Jane Smith
-ID: 102
-Basic Salary: 30000.00
-HRA: 6000.00
-DA: 3000.00
-Gross Salary: 39000.00
-
-Employee 3
-Name: Alice Brown
-ID: 103
-Basic Salary: 22000.00
-HRA: 4400.00
-DA: 2200.00
-Gross Salary: 28600.00
 ```
+ ## OUTPUT
+ 
+![Screenshot 2025-04-27 154902](https://github.com/user-attachments/assets/c44309e1-b086-4365-94c5-3d047dd8c56f)
+
+
+![Screenshot 2025-04-27 154925](https://github.com/user-attachments/assets/a5a7835f-c747-4380-908a-384bdd963a9e)
+
  
 
 ## RESULT
@@ -324,26 +285,10 @@ int main() {
 
     return 0;
 }
-
-## OUTPUT
-Enter details for student 1
-Enter name: John
-Enter roll number: 101
-Enter marks for 5 subjects: 70 85 92 70 87
-
-Enter details for student 2
-Enter name: Alice
-Enter roll number: 102
-Enter marks for 5 subjects: 90 80 88 75 90
-
-Student 1:
-Total marks: 374
-Average marks: 74.80
-
-Student 2:
-Total marks: 383
-Average marks: 76.60
 ```
+## OUTPUT
+![Screenshot 2025-04-27 155253](https://github.com/user-attachments/assets/988d5a29-cb44-4747-9b65-957b9f05c164)
+
 
  
 
