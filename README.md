@@ -1,5 +1,4 @@
-## NAME:S.R.Amiritha
-## REGISTER NUMBER:21224220009
+
 # EX-26-AREA-OF-RECTANGLE-USING- POINTER
 ## AIM
 To write a C Program to find area of rectangle using pointer.
@@ -31,8 +30,8 @@ int main() {
 ```
 ## OUTPUT
 
-![Screenshot 2025-04-27 154006](https://github.com/user-attachments/assets/94fff7ad-8d53-4a68-a405-fbe518b42bdf)
 
+![Screenshot (148)](https://github.com/user-attachments/assets/162190f7-52d4-4445-9786-ee914c513373)
 		       	
 
 
@@ -74,7 +73,8 @@ if (str == NULL) {
 }
 ```
 ## OUTPUT
-![Screenshot 2025-04-27 154223](https://github.com/user-attachments/assets/1429b638-db61-4f88-affb-4ee3b5cb7658)
+
+![Screenshot (149)](https://github.com/user-attachments/assets/adec829d-0aea-44b3-82ad-bcd41e30ba5c)
 
 
 
@@ -125,7 +125,7 @@ int main() {
 
 ## OUTPUT
 
-![Screenshot 2025-04-27 155459](https://github.com/user-attachments/assets/66938081-c3f0-416e-939c-b47c177db8bf)
+![Screenshot (150)](https://github.com/user-attachments/assets/e149f511-c0e9-4a84-9c80-1328f46588d8)
 
 ## RESULT
 
@@ -195,11 +195,11 @@ int main()
 }
 ```
  ## OUTPUT
- 
-![Screenshot 2025-04-27 154902](https://github.com/user-attachments/assets/c44309e1-b086-4365-94c5-3d047dd8c56f)
 
+![Screenshot (151)](https://github.com/user-attachments/assets/59f83bab-ce4c-4cc5-8ae4-4af6c72da45b)
 
-![Screenshot 2025-04-27 154925](https://github.com/user-attachments/assets/a5a7835f-c747-4380-908a-384bdd963a9e)
+![Screenshot (154)](https://github.com/user-attachments/assets/6edd58cf-0d7e-4791-b3c6-221c5378f84f)
+
 
  
 
@@ -287,8 +287,9 @@ int main() {
 }
 ```
 ## OUTPUT
-![Screenshot 2025-04-27 155253](https://github.com/user-attachments/assets/988d5a29-cb44-4747-9b65-957b9f05c164)
 
+
+![Screenshot (155)](https://github.com/user-attachments/assets/c018f0aa-502e-431d-9957-dd111954658b)
 
  
 
